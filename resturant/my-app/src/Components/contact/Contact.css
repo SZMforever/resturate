@@ -1,0 +1,34 @@
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 600px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 20rem;
+  border-radius: 2rem;
+}
+.contact .head {
+  color: var(--mainText);
+}
+
+.contact .meform {
+  color: var(--secondText);
+}
+
+/* start divid  */
+.number1 {
+  background-color: #fff;
+  padding: 25px 0px;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  overflow: hidden;
+  margin-top: 0px;
+}
+.number1 .row {
+  margin: 10px 0px;
+}
+/* end divid*/

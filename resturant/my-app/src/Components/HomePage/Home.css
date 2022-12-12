@@ -1,0 +1,160 @@
+.number {
+  background-color: #a82d49;
+  padding: 25px 0px;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  overflow: hidden;
+  margin-top: 0px;
+}
+.number .row {
+  margin: 10px 0px;
+}
+.number h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 10px 0px;
+  color: #fff;
+  font-family: "Tajawal", sans-serif;
+}
+.number h6 {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Tajawal", sans-serif;
+  font-weight: bold;
+}
+
+/* css to the pride section and ingredients and about*/
+
+.pride,
+.ingredients {
+  background-color: transparent;
+  padding: 25px 0px;
+  max-width: 100%;
+  height: auto;
+
+  overflow: hidden;
+  margin-top: 50px;
+}
+.pride img,
+.ingredients img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.pride h2,
+.ingredients h2 {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 10px 0px;
+  color: #a82d49;
+  font-family: "Tajawal", sans-serif;
+}
+.pride p,
+.ingredients p {
+  font-size: 16px;
+  line-height: 28px;
+  margin: 10px 0px;
+  color: #333;
+  margin-top: 15px;
+  font-family: "Tajawal", sans-serif;
+}
+.pride button,
+.ingredients button {
+  width: 140px;
+  height: 40px;
+  background-color: #a82d49;
+  border: 1px solid #a82d49;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 15px;
+  transition: -2s ease;
+}
+.pride button a,
+.ingredients button a {
+  display: block;
+  color: #fff;
+  font-family: "Tajawal", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.pride button:hover a,
+.ingredients button:hover a {
+  color: #a82d49;
+}
+.pride button:hover,
+.ingredients button:hover {
+  background-color: #fff;
+}
+
+/* start css in the ingredients section */
+.ingredients ul {
+  padding: 0px;
+}
+.ingredients ul li {
+  list-style-type: none;
+  font-family: "Courier New", Courier, monospace;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* css to paralex section */
+
+.paralex {
+  /* background: url("../../assets/1.jpeg") center no-repeat; */
+  /* background-size: cover; */
+  width: 100%;
+  height: 5rem;
+  padding: 30px 0px;
+  text-align: center;
+  border-top: 10px solid #fff;
+  border-bottom: 10px solid #fff;
+  border-radius: 10px;
+}
+/* css to blogs section */
+.blogs {
+  margin-top: 50px;
+  padding: 25px 0px;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+.blogs .row:first-child {
+  text-align: center;
+  margin: 25px 0px;
+}
+.blogs h2 {
+  font-size: 35px;
+  font-weight: bold;
+  width: 100%;
+  color: #77132b;
+  font-family: "Tajawal", sans-serif;
+  line-height: 50px;
+}
+.blogs p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #333;
+  font-family: "Tajawal", sans-serif;
+  margin-top: 15px;
+}
+.blogs .box {
+  /* width: 100%;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  border: 1px solid #f6f6f6;
+  box-sizing: border-box;
+  margin-top: 10px;
+  border-radius: 10px; */
+  height: 12rem;
+  width: 10rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 2rem;
+  margin: 1rem;
+}
+.blogs img {
+  max-width: 100%;
+}

@@ -1,0 +1,55 @@
+header {
+  background: url("../../assets/1.png") right no-repeat;
+  /* background-position: center; */
+  background-size: 40%;
+  border-radius: 10rem;
+  padding: 3rem;
+  width: 100%;
+  max-width: 100%;
+  text-align: left;
+  height: 400px;
+  overflow: hidden;
+  padding: 25px 0px;
+}
+header .row {
+  margin: 50px 0px;
+}
+
+/* header img {
+  max-width: 100%;
+  display: flex;
+  border-radius: 3rem;
+  text-align: right;
+  height: 90%;
+} */
+
+header h2 {
+  color: #a82d49;
+  font-size: 40px;
+  line-height: 40px;
+  font-family: "Tajawal", sans-serif;
+  font-weight: bold;
+}
+header p {
+  color: #333;
+  font-family: "Tajawal", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+header button {
+  width: 150px;
+  height: 50px;
+  background-color: #a82d49;
+  border: 1px solid #a82d49;
+  box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+  margin: 20px 10px 20px 0px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+header button:last-of-type {
+  background-color: #fff;
+  color: #000;
+}
